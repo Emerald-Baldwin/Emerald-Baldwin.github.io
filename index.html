@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<h1>CSCE 499 Capstone</h1>
+<h2>Kyle Hersey</h2>
+<h2>Emerald Baldwin</h2>
+<h2>
+MTG Deck Designer
+</h2>
+<h3>Proposal<br>
+ <br>
+Kyle Hersey BS CS<br>
+Emerald Baldwin BS CS<br>
+ <br>
+CSCE 499, Fall 2014 <br></h3>
+<i>Abstract</i>
+     <p> MTG Deck Designer is a utility designed to help users create Magic: the Gathering decks.
+This application will consolidate the function of three websites into one application that can be used for deck building in a less complicated fashion. Its purpose is to assist the user in the many tasks involved in deckbuilding. This application will be written for the windows 7 operating system and will make use of a local database to store card information. </p><br>
+ 
+<i>Introduction</i><br>
+ 
+        	<p>Magic: the Gathering (hereafter referred to as MTG) is a competitive card game designed by Wizards of the Coast. Players design decks consisting of up to 100 cards. These can be any permutation of the over 14,000 cards. Players use tools to search for cards, which helps them find cards appropriate for their deck. These tools are frequently web applications, and are separate from tools to keep track of the list of cards in a deck. The separation of deckbuilding tools makes the task difficult.</p>
+ 
+<p>This project aims to consolidate the tools into a local application, with user-friendly tools to search for cards and to maintain decklists. The project is aimed at MTG players that are dissatisfied with other deckbuilding tools.</p>
+ 
+<p>We selected C# and WPF as our languages of choice because they are designed specifically for the Windows operating system, and for each other. C# has a wide range of capabilities surpassing the capabilities of Java that would be useful for this project. Since we were planning to write in C#, we also chose to focus on the Windows 7 operating system for our application.</p>
+ 
+<i>Goals</i><br>
+ 
+<p>Below are the goals we hope to achieve with our application. They encompass the outcome we plan to see and the skills we plan to learn.
+        	
+<ul><li>The application will parse a JSON file containing card information, and use the information to populate a local database.</li>
+<li>The application will search cards depending on their filters, which will be contained in the database.</li>
+<li>The application will store decks (lists) of MTG cards.</li>
+<li>The project will be successful if users are easily able to find cards meeting specific criteria by applying filters to the database of MTG cards, as well as store lists of MTG cards.</li></ul>
+ 
+<p><i>Predicted Requirements</i></p>
+ 
+        	<p>To best write for Windows 7, we will need Visual Studio, preferably a version ranging from 2010 to 2013. We will also be requiring two books: C# 5.0 in a Nutshell and Windows Presentation Foundation Unleashed. After some research, we determined that these were some of the best books for learning C# and WPF. For the database portion, we plan on using mySQL to build a local database. Finally, we will make use of Git to maintain version of our source code.</p>
+ 
+<p><i>Predicted Challenges</i></p>
+        	
+        	<p>We anticipate that our largest challenge will be learning the new material. Specifically, learning how to write a local database in mySQL, creating GUIs with WPF, utilizing Git, and taking advantage of the capabilities of the C# programming language. Both WPF and Git have steep learning curves but are essential to the design of our project.</p>
+ 
+        	<p>We also anticipate some difficulty classifying card types. Cards can be of multiple types at once, leading to a need for multiple inheritance. This will be an issue that we will have to be considered when designing our database and when creating classes to hold card information. C# does not support multiple inheritance, a useful tool when dealing with cards of multiple types.</p>
+ 
+        	<p>Finally, it is anticipated that there will be challenges in finding information about all magic cards should our current site offering a json file fail.</p>
+ 
+<p><i>Timeline</i></p>
+ 
+        	<p>Below is a general outline of the milestones we hope to have completed at the end of each month. We have allotted two months for testing and UI tweaks, but anticipate that these months might be spent completing expected goals for previous months. The first few months are associated with researching technologies and languages required to complete the project and establishing the framework of the project.</p>
+ 
+<ul><li>October: Kyle familiar with and programming in C# and WPF, Emerald writes EER diagram, blog platform is selected and set up</li>
+<li>November: Kyle familiar with DB construction, Emerald normalizes DB and creates tables</li>
+<li>December: WPF skeleton written with hard-coded data</li>
+<li>January: json parser completed and database populated</li>
+<li>February: Working with small sample dataset</li>
+<li>March: Application working with fully populated database</li>
+<li>April: Testing</li>
+<li>May: UI changes and final bugs</li></ol>
+</p>
+</html>
