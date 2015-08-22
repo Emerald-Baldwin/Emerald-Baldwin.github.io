@@ -1,0 +1,36 @@
+#head {
+  background-color:black;
+  color:white;
+  width:1000px;
+  padding:10px;
+  border-radius:10px;
+}
+#buttons {
+  background-color:black;
+  color:white;
+  padding:20px;
+  border-radius:15px;
+  width:100px;
+}
+#buttons:hover {
+  background-color:grey;
+}
+#buttons:active {
+  background-color:lightgrey;
+}
+#mainPage {
+  float:left;
+  padding:20px;
+}
+#buttonControl {
+  float:left;
+}
+#mainWindow {
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  height:200px;
+  width:1000px;
+  padding:10px;
+  border-radius:10px;
+}
